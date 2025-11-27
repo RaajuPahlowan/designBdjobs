@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--initialViewController-->
+        <!--HotJobsViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="initialViewController" title="initialViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="testBdjobs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HotJobsViewController" title="HotJobsViewController" id="BYZ-38-t0r" customClass="HotJobsViewController" customModule="testBdjobs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1457,7 +1457,7 @@
                                                                     <rect key="frame" x="0.0" y="29" width="156.66666666666666" height="29"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bdjobs Limited" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jlv-DB-BFk">
-                                                                            <rect key="frame" x="10" y="0.0" width="65.666666666666657" height="29"/>
+                                                                            <rect key="frame" x="10" y="0.0" width="65.666666666666671" height="29"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                                                             <color key="textColor" red="0.34901960784313724" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -1727,6 +1727,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="companyLogoImageView" destination="dVs-Yb-Qtq" id="URu-xh-SdU"/>
+                        <outlet property="companyTitleLabel" destination="3Qs-fL-uUo" id="zw1-eT-3fL"/>
                         <outlet property="imageView" destination="CD4-67-boC" id="pcU-7n-uT0"/>
                         <outlet property="textLabel" destination="dy3-iP-9p2" id="zDb-yS-wgb"/>
                     </connections>

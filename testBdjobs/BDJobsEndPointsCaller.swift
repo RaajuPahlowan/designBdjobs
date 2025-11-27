@@ -10,7 +10,7 @@ import Alamofire
 
 class BDJobsEndPointsCaller {
     
-    static func getHotJobs(completion:@escaping (Result<HotJobsRoot>) -> Void) {
+    static func getHotJobs(completion: @escaping (Result<HotJobsRoot>) -> Void) {
         Alamofire.request(BDJobsEndPoints.getHotJobs).responseObject { (response: DataResponse<HotJobsRoot>) in
             let request = response.request
             let httpResponse = response.response
@@ -28,7 +28,6 @@ class BDJobsEndPointsCaller {
             }
 
             if 200 ... 300 ~= statusCodeUnwrapped {
-                //check bdjs response here
                 print(Constants.NetworkCallMessages.successAlamofire)
                 NetworkLog.showResponse(response: httpResponse!)
                 completion(response.result)
@@ -40,3 +39,4 @@ class BDJobsEndPointsCaller {
         }
     }
 }
+

@@ -4,11 +4,12 @@ target 'testBdjobs' do
   use_frameworks!
   use_modular_headers!
 
-  pod 'Alamofire', '~> 5.10'
+  pod 'Alamofire', '~> 4.7'
+  pod 'AlamofireImage', '~> 3.3'
   pod 'FSPagerView'
   pod 'SQLite.swift', '~> 0.12.2'
-pod 'WSTagsField'
-pod 'Toast-Swift'
+  pod 'WSTagsField'
+  pod 'Toast-Swift'
 
 end
 

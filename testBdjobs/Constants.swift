@@ -16,24 +16,39 @@ struct Constants {
     }
     
     struct APIParameterKey {
+        
+        static let packageName = "packageName"
+        static let packageNameVersion = "packageNameVersion"
         static let appId = "appId"
     }
+        
+        struct Others {
+            //        static let staticEncoded = "150410BJJS261"
+            //        static let encoded: String = {
+            //            let userDefaultManager = UserDefaultsManager()
+            //            let encoded = userDefaultManager.getEncoded()
+            //            return encoded!
+            //        }()
+            static let packageName: String = {
+                let packageName = DeviceInformation.getAppBudleIdentifier()
+                return packageName
+            }()
+            static let packageNameVersion: String = {
+                let packageNameVersion = DeviceInformation.getAppVersion()
+                return packageNameVersion!
+            }()
+            static let appId = 3
+        }
     
-    struct Others {
-//        static let staticEncoded = "150410BJJS261"
-//        static let encoded: String = {
-//            let userDefaultManager = UserDefaultsManager()
-//            let encoded = userDefaultManager.getEncoded()
-//            return encoded!
-//        }()
-        static let packageName: String = {
-            let packageName = DeviceInformation.getAppBudleIdentifier()
-            return packageName
-        }()
-        static let packageNameVersion: String = {
-            let packageNameVersion = DeviceInformation.getAppVersion()
-            return packageNameVersion!
-        }()
+    
+    struct NetworkCallMessages {
+        static let successAlamofire = "SUCCESS FROM ALAMOFIRE"
+        static let failedAlamofire = "FAILED FROM ALAMOFIRE"
+        static let successBDJServer = "SUCCESS FROM BDJS"
+        static let failedBDJServer = "FAILED FROM BDJS"
+        static let networkOperationFailed = "NETWORK OPERATION FAILED"
+        static let generalError = "System needs some time to work. Please try again later."
+        static let internetConnectionNotFound = "Internet Connection Not Found"
     }
     
     struct DurationUtils {
