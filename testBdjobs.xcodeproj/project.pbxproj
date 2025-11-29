@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E2809AA2ED87BD700856FE4 /* HotJobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2809A92ED87BD700856FE4 /* HotJobsTableViewCell.swift */; };
+		5E24DD952EDAE3FE005FCDE4 /* HotJobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E24DD942EDAE3FE005FCDE4 /* HotJobsTableViewCell.swift */; };
 		5E58A2202ED854C000C97078 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58A21F2ED854C000C97078 /* APIConfiguration.swift */; };
 		5E58A2222ED85B4600C97078 /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58A2212ED85B4600C97078 /* DeviceInformation.swift */; };
 		5E73D20A2ED41F3B00F75873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73D2092ED41F3B00F75873 /* AppDelegate.swift */; };
@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		5BBEE215AA40EE06EE2215DA /* Pods-testBdjobs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testBdjobs.debug.xcconfig"; path = "Target Support Files/Pods-testBdjobs/Pods-testBdjobs.debug.xcconfig"; sourceTree = "<group>"; };
-		5E2809A92ED87BD700856FE4 /* HotJobsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotJobsTableViewCell.swift; sourceTree = "<group>"; };
+		5E24DD942EDAE3FE005FCDE4 /* HotJobsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotJobsTableViewCell.swift; sourceTree = "<group>"; };
 		5E58A21F2ED854C000C97078 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
 		5E58A2212ED85B4600C97078 /* DeviceInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
 		5E73D2062ED41F3B00F75873 /* testBdjobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testBdjobs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,8 +107,8 @@
 				5E73D23D2ED468B700F75873 /* popupViewController.swift */,
 				5E73D23F2ED468EB00F75873 /* finalViewController.swift */,
 				5E73D20F2ED41F3B00F75873 /* Main.storyboard */,
+				5E24DD942EDAE3FE005FCDE4 /* HotJobsTableViewCell.swift */,
 				5E73D20D2ED41F3B00F75873 /* HotJobsViewController.swift */,
-				5E2809A92ED87BD700856FE4 /* HotJobsTableViewCell.swift */,
 				5E7B3C402ED83D940021C05A /* HotJobsRoot.swift */,
 				5E7B3C422ED841B80021C05A /* BDJobsEndPoints.swift */,
 				5E7B3C3E2ED83C450021C05A /* BDJobsEndPointsCaller.swift */,
@@ -252,7 +252,7 @@
 				5E7B3C3F2ED83C450021C05A /* BDJobsEndPointsCaller.swift in Sources */,
 				5E73D23E2ED468B700F75873 /* popupViewController.swift in Sources */,
 				5EBAB81E2ED8529F00AA505F /* NetworkLog.swift in Sources */,
-				5E2809AA2ED87BD700856FE4 /* HotJobsTableViewCell.swift in Sources */,
+				5E24DD952EDAE3FE005FCDE4 /* HotJobsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

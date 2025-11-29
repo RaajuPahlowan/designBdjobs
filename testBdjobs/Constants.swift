@@ -23,12 +23,6 @@ struct Constants {
     }
         
         struct Others {
-            //        static let staticEncoded = "150410BJJS261"
-            //        static let encoded: String = {
-            //            let userDefaultManager = UserDefaultsManager()
-            //            let encoded = userDefaultManager.getEncoded()
-            //            return encoded!
-            //        }()
             static let packageName: String = {
                 let packageName = DeviceInformation.getAppBudleIdentifier()
                 return packageName
@@ -74,4 +68,9 @@ enum HTTPHeaderField: String {
 enum ContentType: String {
     case json = "application/json"
     case url = "application/x-www-form-urlencoded"
+}
+
+enum HotJobsCardState {
+    case folded
+    case expanded
 }
