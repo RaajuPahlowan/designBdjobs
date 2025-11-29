@@ -1727,8 +1727,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="companyLogoImageView" destination="dVs-Yb-Qtq" id="URu-xh-SdU"/>
-                        <outlet property="companyTitleLabel" destination="3Qs-fL-uUo" id="zw1-eT-3fL"/>
                         <outlet property="imageView" destination="CD4-67-boC" id="pcU-7n-uT0"/>
                         <outlet property="textLabel" destination="dy3-iP-9p2" id="zDb-yS-wgb"/>
                     </connections>

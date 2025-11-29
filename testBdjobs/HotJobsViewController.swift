@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  testBdjobs
 //
-//  Created by Fahim Mashroor on 24/11/25.
+//  Created by Raaju Pahlowan on 24/11/25.
 //
 
 import UIKit
@@ -11,8 +11,6 @@ class HotJobsViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textLabel: UILabel!
-    @IBOutlet weak var companyTitleLabel: UILabel!
-    @IBOutlet weak var companyLogoImageView: UIImageView!
     
     var hotJobsData = [HotJobsData]()
     
