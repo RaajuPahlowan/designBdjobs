@@ -106,21 +106,6 @@
 				5E948DC62EDC1976001AD94C /* Model */,
 				5E948DC52EDC1964001AD94C /* App */,
 				5E948DC42EDC1954001AD94C /* Utils */,
-				5E73D2092ED41F3B00F75873 /* AppDelegate.swift */,
-				5E73D20B2ED41F3B00F75873 /* SceneDelegate.swift */,
-				5E73D23D2ED468B700F75873 /* popupViewController.swift */,
-				5E73D23F2ED468EB00F75873 /* finalViewController.swift */,
-				5E73D20F2ED41F3B00F75873 /* Main.storyboard */,
-				5E24DD942EDAE3FE005FCDE4 /* HotJobsTableViewCell.swift */,
-				5E73D20D2ED41F3B00F75873 /* HotJobsViewController.swift */,
-				5E7B3C402ED83D940021C05A /* HotJobsRoot.swift */,
-				5E7B3C422ED841B80021C05A /* BDJobsEndPoints.swift */,
-				5E7B3C3E2ED83C450021C05A /* BDJobsEndPointsCaller.swift */,
-				5E7B3C442ED847770021C05A /* Constants.swift */,
-				5E58A2212ED85B4600C97078 /* DeviceInformation.swift */,
-				5E58A21F2ED854C000C97078 /* APIConfiguration.swift */,
-				5EBAB81D2ED8529F00AA505F /* NetworkLog.swift */,
-				5EBAB81F2ED8535400AA505F /* BdjobsExtensions.swift */,
 				5E73D2122ED41F3E00F75873 /* Assets.xcassets */,
 				5E73D2142ED41F3E00F75873 /* LaunchScreen.storyboard */,
 				5E73D2172ED41F3E00F75873 /* Info.plist */,
@@ -131,6 +116,7 @@
 		5E948DC42EDC1954001AD94C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5E948DD72EDC4EA1001AD94C /* Extension */,
 				5E948DCF2EDC1C2C001AD94C /* CommonRoutes */,
 				5E948DCE2EDC1C14001AD94C /* RecentSearch */,
 				5E948DCD2EDC1BEF001AD94C /* Logs */,
@@ -143,6 +129,8 @@
 		5E948DC52EDC1964001AD94C /* App */ = {
 			isa = PBXGroup;
 			children = (
+				5E73D2092ED41F3B00F75873 /* AppDelegate.swift */,
+				5E73D20B2ED41F3B00F75873 /* SceneDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -158,6 +146,9 @@
 		5E948DC72EDC1985001AD94C /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				5E73D20F2ED41F3B00F75873 /* Main.storyboard */,
+				5E73D23D2ED468B700F75873 /* popupViewController.swift */,
+				5E73D23F2ED468EB00F75873 /* finalViewController.swift */,
 				5E948DC92EDC19E2001AD94C /* HotJobs */,
 			);
 			path = Modules;
@@ -166,6 +157,8 @@
 		5E948DC92EDC19E2001AD94C /* HotJobs */ = {
 			isa = PBXGroup;
 			children = (
+				5E24DD942EDAE3FE005FCDE4 /* HotJobsTableViewCell.swift */,
+				5E73D20D2ED41F3B00F75873 /* HotJobsViewController.swift */,
 			);
 			path = HotJobs;
 			sourceTree = "<group>";
@@ -173,6 +166,7 @@
 		5E948DCA2EDC1A31001AD94C /* HotJobs */ = {
 			isa = PBXGroup;
 			children = (
+				5E7B3C402ED83D940021C05A /* HotJobsRoot.swift */,
 			);
 			path = HotJobs;
 			sourceTree = "<group>";
@@ -180,6 +174,7 @@
 		5E948DCB2EDC1BBB001AD94C /* DeviceInfo */ = {
 			isa = PBXGroup;
 			children = (
+				5E58A2212ED85B4600C97078 /* DeviceInformation.swift */,
 			);
 			path = DeviceInfo;
 			sourceTree = "<group>";
@@ -187,7 +182,6 @@
 		5E948DCC2EDC1BDB001AD94C /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				5E948DD22EDC1C94001AD94C /* CommonNetworkCalls */,
 				5E948DD12EDC1C8A001AD94C /* Status */,
 				5E948DD02EDC1C77001AD94C /* ApiClient */,
 			);
@@ -197,6 +191,7 @@
 		5E948DCD2EDC1BEF001AD94C /* Logs */ = {
 			isa = PBXGroup;
 			children = (
+				5EBAB81D2ED8529F00AA505F /* NetworkLog.swift */,
 			);
 			path = Logs;
 			sourceTree = "<group>";
@@ -204,6 +199,7 @@
 		5E948DCE2EDC1C14001AD94C /* RecentSearch */ = {
 			isa = PBXGroup;
 			children = (
+				5E7B3C442ED847770021C05A /* Constants.swift */,
 			);
 			path = RecentSearch;
 			sourceTree = "<group>";
@@ -232,13 +228,6 @@
 			path = Status;
 			sourceTree = "<group>";
 		};
-		5E948DD22EDC1C94001AD94C /* CommonNetworkCalls */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CommonNetworkCalls;
-			sourceTree = "<group>";
-		};
 		5E948DD32EDC1CB7001AD94C /* MyBDJobs */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +238,8 @@
 		5E948DD42EDC1CCA001AD94C /* BDJobs */ = {
 			isa = PBXGroup;
 			children = (
+				5E7B3C422ED841B80021C05A /* BDJobsEndPoints.swift */,
+				5E7B3C3E2ED83C450021C05A /* BDJobsEndPointsCaller.swift */,
 			);
 			path = BDJobs;
 			sourceTree = "<group>";
@@ -256,8 +247,17 @@
 		5E948DD52EDC1CD9001AD94C /* Configuraton */ = {
 			isa = PBXGroup;
 			children = (
+				5E58A21F2ED854C000C97078 /* APIConfiguration.swift */,
 			);
 			path = Configuraton;
+			sourceTree = "<group>";
+		};
+		5E948DD72EDC4EA1001AD94C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5EBAB81F2ED8535400AA505F /* BdjobsExtensions.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
