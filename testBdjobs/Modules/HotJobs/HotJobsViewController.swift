@@ -131,8 +131,4 @@ extension HotJobsViewController: UITableViewDataSource {
         headerView.backgroundColor = UIColor.clear
         return headerView
     }
-
-//    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//      return 150
-//    }
 }

@@ -20,6 +20,13 @@ struct Constants {
         static let packageName = "packageName"
         static let packageNameVersion = "packageNameVersion"
         static let appId = "appId"
+        static let page = "page"
+        static let rpp = "rpp"
+        static let version = "version"
+        static let encoded = "encoded"
+        static let orgName = "orgName"
+        static let orgType = "orgType"
+        static let orgFirstLetter = "orgFirstLetter"
     }
         
         struct Others {
@@ -32,6 +39,13 @@ struct Constants {
                 return packageNameVersion!
             }()
             static let appId = 3
+            static let encoded: String = {
+                let userDefaultManager = UserDefaultsManager()
+                guard let encoded = userDefaultManager.getEncoded() else {
+                            return "" // Default to empty string if nil
+                        }
+                        return encoded
+            }()
         }
     
     
@@ -54,6 +68,33 @@ struct Constants {
     
     struct WebViewUrls {
         static let hotJobsUrl = "http://bdjobs.com/upcoming/files/hotjob/apphotjobs.asp"
+    }
+    
+    struct UserDefaultKey {
+        static let lastUpdate = "lastUpdate"
+        static let keyword = "keyword"
+        static let location = "location"
+        static let category = "category"
+
+        static let keyword_recent_search_String = "keyword_recent_search_String"
+        static let location_recent_search = "location_recent_search"
+        static let lastSavedPosition = "lastSavedPosition"
+
+        static let userData = "userData"
+        static let isLoggedIn = "isLoggedIn"
+        static let storedJob = "storedJob"
+        static let appliedJobs = "appliedJobs"
+        static let favoriteSearchList = "favoriteSearchList"
+        static let favoriteSearchNames = "favoriteSearchNames"
+        static let followEmployeersCompanyNames = "followEmployeersCompanyNames"
+        static let followEmployers = "followEmployers"
+
+        static let lastSearch = "lastSearch"
+        static let lastFavSearchTitle = "lastFavSearchTitle"
+
+        static let lastFavSearchId = "lastFavSearchId"
+
+        static let encodedKey = "encodedKey"
     }
 }
 

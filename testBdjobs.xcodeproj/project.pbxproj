@@ -10,6 +10,15 @@
 		5E24DD952EDAE3FE005FCDE4 /* HotJobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E24DD942EDAE3FE005FCDE4 /* HotJobsTableViewCell.swift */; };
 		5E58A2202ED854C000C97078 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58A21F2ED854C000C97078 /* APIConfiguration.swift */; };
 		5E58A2222ED85B4600C97078 /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58A2212ED85B4600C97078 /* DeviceInformation.swift */; };
+		5E739C352EDD633E00E65225 /* TopCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E739C342EDD633E00E65225 /* TopCountView.swift */; };
+		5E739C392EDD653100E65225 /* EmployerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E739C382EDD653100E65225 /* EmployerListViewController.swift */; };
+		5E739C3B2EDD677600E65225 /* EmployerListRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E739C3A2EDD677600E65225 /* EmployerListRoot.swift */; };
+		5E739C3D2EDD67C500E65225 /* EmployerListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E739C3C2EDD67C500E65225 /* EmployerListData.swift */; };
+		5E739C3F2EDD680D00E65225 /* EmployerListCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E739C3E2EDD680D00E65225 /* EmployerListCommon.swift */; };
+		5E739C412EDD71F600E65225 /* FollowEmployeeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E739C402EDD71F600E65225 /* FollowEmployeeListTableViewCell.swift */; };
+		5E739C432EDD77DE00E65225 /* NetworkStatusCheckable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E739C422EDD77DE00E65225 /* NetworkStatusCheckable.swift */; };
+		5E739C452EDD787900E65225 /* AlamofireConnectivityChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E739C442EDD787900E65225 /* AlamofireConnectivityChecker.swift */; };
+		5E739C472EDD7A5100E65225 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E739C462EDD7A5100E65225 /* UserDefaultsManager.swift */; };
 		5E73D20A2ED41F3B00F75873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73D2092ED41F3B00F75873 /* AppDelegate.swift */; };
 		5E73D20C2ED41F3B00F75873 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73D20B2ED41F3B00F75873 /* SceneDelegate.swift */; };
 		5E73D20E2ED41F3B00F75873 /* HotJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73D20D2ED41F3B00F75873 /* HotJobsViewController.swift */; };
@@ -32,6 +41,15 @@
 		5E24DD942EDAE3FE005FCDE4 /* HotJobsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotJobsTableViewCell.swift; sourceTree = "<group>"; };
 		5E58A21F2ED854C000C97078 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
 		5E58A2212ED85B4600C97078 /* DeviceInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
+		5E739C342EDD633E00E65225 /* TopCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCountView.swift; sourceTree = "<group>"; };
+		5E739C382EDD653100E65225 /* EmployerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerListViewController.swift; sourceTree = "<group>"; };
+		5E739C3A2EDD677600E65225 /* EmployerListRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerListRoot.swift; sourceTree = "<group>"; };
+		5E739C3C2EDD67C500E65225 /* EmployerListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerListData.swift; sourceTree = "<group>"; };
+		5E739C3E2EDD680D00E65225 /* EmployerListCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerListCommon.swift; sourceTree = "<group>"; };
+		5E739C402EDD71F600E65225 /* FollowEmployeeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowEmployeeListTableViewCell.swift; sourceTree = "<group>"; };
+		5E739C422EDD77DE00E65225 /* NetworkStatusCheckable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatusCheckable.swift; sourceTree = "<group>"; };
+		5E739C442EDD787900E65225 /* AlamofireConnectivityChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireConnectivityChecker.swift; sourceTree = "<group>"; };
+		5E739C462EDD7A5100E65225 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		5E73D2062ED41F3B00F75873 /* testBdjobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testBdjobs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E73D2092ED41F3B00F75873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E73D20B2ED41F3B00F75873 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +165,15 @@
 			isa = PBXGroup;
 			children = (
 				5E73D20F2ED41F3B00F75873 /* Main.storyboard */,
+				5E739C462EDD7A5100E65225 /* UserDefaultsManager.swift */,
+				5E739C3A2EDD677600E65225 /* EmployerListRoot.swift */,
+				5E739C3E2EDD680D00E65225 /* EmployerListCommon.swift */,
+				5E739C3C2EDD67C500E65225 /* EmployerListData.swift */,
+				5E739C382EDD653100E65225 /* EmployerListViewController.swift */,
+				5E739C442EDD787900E65225 /* AlamofireConnectivityChecker.swift */,
+				5E739C422EDD77DE00E65225 /* NetworkStatusCheckable.swift */,
+				5E739C402EDD71F600E65225 /* FollowEmployeeListTableViewCell.swift */,
+				5E739C342EDD633E00E65225 /* TopCountView.swift */,
 				5E73D23D2ED468B700F75873 /* popupViewController.swift */,
 				5E73D23F2ED468EB00F75873 /* finalViewController.swift */,
 				5E948DC92EDC19E2001AD94C /* HotJobs */,
@@ -376,14 +403,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E7B3C412ED83D940021C05A /* HotJobsRoot.swift in Sources */,
+				5E739C3F2EDD680D00E65225 /* EmployerListCommon.swift in Sources */,
 				5E73D20E2ED41F3B00F75873 /* HotJobsViewController.swift in Sources */,
 				5E7B3C432ED841B80021C05A /* BDJobsEndPoints.swift in Sources */,
+				5E739C3D2EDD67C500E65225 /* EmployerListData.swift in Sources */,
+				5E739C432EDD77DE00E65225 /* NetworkStatusCheckable.swift in Sources */,
+				5E739C352EDD633E00E65225 /* TopCountView.swift in Sources */,
+				5E739C472EDD7A5100E65225 /* UserDefaultsManager.swift in Sources */,
+				5E739C412EDD71F600E65225 /* FollowEmployeeListTableViewCell.swift in Sources */,
 				5E73D2402ED468EB00F75873 /* finalViewController.swift in Sources */,
 				5EBAB8202ED8535400AA505F /* BdjobsExtensions.swift in Sources */,
 				5E58A2222ED85B4600C97078 /* DeviceInformation.swift in Sources */,
+				5E739C392EDD653100E65225 /* EmployerListViewController.swift in Sources */,
 				5E7B3C452ED847770021C05A /* Constants.swift in Sources */,
 				5E73D20A2ED41F3B00F75873 /* AppDelegate.swift in Sources */,
 				5E73D20C2ED41F3B00F75873 /* SceneDelegate.swift in Sources */,
+				5E739C452EDD787900E65225 /* AlamofireConnectivityChecker.swift in Sources */,
+				5E739C3B2EDD677600E65225 /* EmployerListRoot.swift in Sources */,
 				5E58A2202ED854C000C97078 /* APIConfiguration.swift in Sources */,
 				5E7B3C3F2ED83C450021C05A /* BDJobsEndPointsCaller.swift in Sources */,
 				5E73D23E2ED468B700F75873 /* popupViewController.swift in Sources */,
